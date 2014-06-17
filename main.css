@@ -7,6 +7,8 @@
 	padding: 40px 20px 0 20px;
 	display: inline-block;
 	vertical-align: top;
+}
 
-
+.vspaced{
+	padding: 100px 0 100px 0;
 }
