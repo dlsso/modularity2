@@ -1,1 +1,12 @@
-/* ADD YOUR STYLES HERE */
+.spaced{
+		text-align: center;
+
+}
+
+.spaced img, .spaced p, .spaced ol{
+	padding: 40px 20px 0 20px;
+	display: inline-block;
+	vertical-align: top;
+
+
+}
