@@ -58,3 +58,36 @@
 	line-height: 25px;
 	font-size: 13px;
 }
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+nav li{
+	float: left;
+	background-color: #d77;
+}
+
+nav li:hover{
+/*	background-color: #f88;*/
+	box-shadow: inset 0 0 25px #faa;
+}
+
+nav li:first-child{
+	border-radius: 4px 0 0 4px;
+}
+
+nav li:last-child{
+	border-radius: 0 4px 4px 0;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	width: 80px;
+	text-align: center;
+	padding: 12px 25px 12px 25px;
+}
