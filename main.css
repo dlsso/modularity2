@@ -120,3 +120,18 @@ nav a{
 		border-bottom: solid 3px #ccc;
 }
 
+
+.float-left{
+	float:left;
+	padding-right: 10px;
+}
+
+.clearfix{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.indent{
+	margin-left: 90px;
+
+}
