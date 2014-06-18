@@ -135,3 +135,42 @@ nav a{
 	margin-left: 90px;
 
 }
+
+
+.tab {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tab li{
+	float: left;
+	border: solid;
+	border-width: 1px 1px 0 1px;
+	padding: .25em .5em .25em .5em;
+	margin: 0 .5em;
+	border-radius: 5px 5px 0 0;
+	border-color: #99f;
+
+
+}
+
+.tab a, .tab a:visited{
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #00f;
+}
+
+.content {
+	padding: .5em;
+	border: 1px solid #99f;
+	border-radius: 5px;
+	clear: both;
+}
+
+.tab .selected {
+	position: relative;
+	top: 1px;
+	background-color: white;
+}
